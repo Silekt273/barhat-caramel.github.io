@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Корзина — Бархат & Карамель</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+ 
+  <input type="checkbox" id="mobile-menu-toggle">
+
+  <div class="header-inner">
+    <div class="logo">
+      <img src="../assets/images/image-15-lg.webp" alt="Бархат & Карамель">
+    </div>
+
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="aboutus.html">О нас</a>
+      <a href="#products">Десерты</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <a href="cart.html" class="cart-link">
+      <button class="btn-cart text-base">
+        Корзина <div class="cart-count">0</div>
+      </button>
+    </a>
+
+    <label for="mobile-menu-toggle" class="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  
+  <nav class="mobile-menu">
+    <div class="mobile-nav">
+      <a href="index.html">Главная</a>
+      <a href="aboutus.html">О нас</a>
+      <a href="#products">Десерты</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+  </nav>
+</header>
+    
+<section class="cart">
+  <div class="cart-container">
+
+    
+    <div class="cart-header text-center">
+      <h1 class="cart-title font-seg-bold text-5xl text-vine">Корзина</h1>
+      <p class="cart-subtitle font-sans text-lg text-dark leading-relaxed">
+        Ваши избранные десерты готовы к заказу
+      </p>
+    </div>
+
+    
+    <div class="cart-content">
+
+      
+      <div class="cart-items">
+        
+        <div class="cart-item">
+          <div class="item-image">
+            <img src="../../assets/images/product3.webp" alt="Макаруны ассорти" loading="lazy">
+          </div>
+
+          <div class="item-details">
+            <h3 class="item-title font-sans-bold text-xl text-vine">Macarons Assortis</h3>
+            <p class="item-desc font-sans text-base text-dark">Набор из 12 макаронов: ваниль, карамель, фисташка,
+              малина.</p>
+            <div class="item-meta">
+              <span class="item-price font-sans-bold text-lg text-vine">1 200 ₽</span>
+            </div>
+          </div>
+
+          <div class="item-controls">
+            <div class="quantity-controls">
+              <button class="quantity-btn minus" type="button">-</button>
+              <span class="quantity font-sans-bold text-base text-dark">1</span>
+              <button class="quantity-btn plus" type="button">+</button>
+            </div>
+            <button class="remove-btn font-sans text-sm text-dark" type="button">
+              Удалить
+            </button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <div class="item-image">
+            <img src="../../assets/images/product4.webp" alt="Ягодный тарт" loading="lazy">
+          </div>
+
+          <div class="item-details">
+            <h3 class="item-title font-sans-bold text-xl text-vine">Tartelette aux Framboises</h3>
+            <p class="item-desc font-sans text-base text-dark">Тонкое тесто sablé с ванильным кремом и свежей малиной.
+            </p>
+            <div class="item-meta">
+              <span class="item-price font-sans-bold text-lg text-vine">120 ₽</span>
+            </div>
+          </div>
+
+          <div class="item-controls">
+            <div class="quantity-controls">
+              <button class="quantity-btn minus" type="button">-</button>
+              <span class="quantity font-sans-bold text-base text-dark">1</span>
+              <button class="quantity-btn plus" type="button">+</button>
+            </div>
+            <button class="remove-btn font-sans text-sm text-dark" type="button">
+              Удалить
+            </button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <div class="item-image">
+            <img src="../../assets/images/product1.webp" alt="Шоколадный торт" loading="lazy">
+          </div>
+
+          <div class="item-details">
+            <h3 class="item-title font-sans-bold text-xl text-vine">Entremet Caramel</h3>
+            <p class="item-desc font-sans text-base text-dark">Многослойный карамельный торт с пралине и зеркальной
+              глазурью.</p>
+            <div class="item-meta">
+              <span class="item-price font-sans-bold text-lg text-vine">2 500 ₽</span>
+            </div>
+          </div>
+
+          <div class="item-controls">
+            <div class="quantity-controls">
+              <button class="quantity-btn minus" type="button">-</button>
+              <span class="quantity font-sans-bold text-base text-dark">1</span>
+              <button class="quantity-btn plus" type="button">+</button>
+            </div>
+            <button class="remove-btn font-sans text-sm text-dark" type="button">
+              Удалить
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="cart-sidebar">
+        <div class="order-summary">
+          <h3 class="summary-title font-sans-bold text-2xl text-vine">Ваш заказ</h3>
+
+          <div class="summary-items">
+            <div class="summary-item">
+              <span class="font-sans text-base text-dark">Macarons Assortis</span>
+              <span class="font-sans-bold text-base text-dark">1 200 ₽</span>
+            </div>
+            <div class="summary-item">
+              <span class="font-sans text-base text-dark">Tartelette aux Framboises</span>
+              <span class="font-sans-bold text-base text-dark">120 ₽</span>
+            </div>
+            <div class="summary-item">
+              <span class="font-sans text-base text-dark">Entremet Caramel</span>
+              <span class="font-sans-bold text-base text-dark">2 500 ₽</span>
+            </div>
+          </div>
+
+          <div class="summary-totals">
+            <div class="total-line">
+              <span class="font-sans text-base text-dark">Промежуточный итог</span>
+              <span class="font-sans-bold text-base text-dark subtotal-price">3 820 ₽</span>
+            </div>
+
+            
+            <div class="total-line delivery-line">
+              <span class="font-sans text-base text-dark">Доставка</span>
+              <div class="delivery-price-container">
+               
+                <span class="delivery-price pickup-price font-sans-bold text-base text-vine">0 ₽</span>
+                
+              </div>
+            </div>
+
+            <div class="total-line final">
+              <span class="font-sans-bold text-lg text-vine">Итого</span>
+              <div class="total-price-container">
+
+                <span class="total-price pickup-total font-seg-bold text-2xl text-vine">3 820 ₽</span>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="delivery-info">
+            <h4 class="font-sans-bold text-base text-vine mb-3">Информация о доставке</h4>
+            <div class="delivery-options">
+
+              <label class="delivery-option">
+                <input type="radio" name="delivery" id="pickup" checked="checked">
+                <span class="font-sans text-base text-dark">Самовывоз</span>
+                <span class="font-sans-bold text-base text-vine">Бесплатно</span>
+              </label>
+
+
+              <label class="delivery-option">
+                <input type="radio" name="delivery" id="delivery">
+                <span class="font-sans text-base text-dark">Курьерская доставка</span>
+                <span class="font-sans-bold text-base text-vine">500 ₽</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="checkout-btn btn-primary font-sans-bold text-base" type="button">
+            Перейти к оформлению
+          </button>
+
+          <div class="continue-shopping">
+            <a href="index.html" class="font-sans text-base text-vine">
+              ← Продолжить покупки
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="cart-recommendations">
+      <h2 class="recommendations-title font-seg-bold text-3xl text-vine text-center mb-8">
+        Добавьте к заказу
+      </h2>
+
+      <div class="recommendations-grid">
+        <div class="recommendation-card">
+          <div class="rec-image">
+            <img src="../../assets/images/coffee.webp" alt="Кофе в подарок" loading="lazy">
+          </div>
+          <div class="rec-content">
+            <h4 class="font-sans-bold text-lg text-vine">Кофе в подарок</h4>
+            <p class="font-sans text-sm text-dark">При заказе от 3000 ₽</p>
+            <button class="rec-add-btn font-sans-bold text-sm text-vine">Добавить</button>
+          </div>
+        </div>
+
+        <div class="recommendation-card">
+          <div class="rec-image">
+            <img src="../../assets/images/mini-cakes.webp" alt="Мини-тортики" loading="lazy">
+          </div>
+          <div class="rec-content">
+            <h4 class="font-sans-bold text-lg text-vine">Набор мини-тортиков</h4>
+            <p class="font-sans text-sm text-dark">4 шт. разных вкусов</p>
+            <button class="rec-add-btn font-sans-bold text-sm text-vine">Добавить</button>
+          </div>
+        </div>
+
+        <div class="recommendation-card">
+          <div class="rec-image">
+            <img src="../../assets/images/tea.webp" alt="Чайная коллекция" loading="lazy">
+          </div>
+          <div class="rec-content">
+            <h4 class="font-sans-bold text-lg text-vine">Чайная коллекция</h4>
+            <p class="font-sans text-sm text-dark">Ароматный травяной чай</p>
+            <button class="rec-add-btn font-sans-bold text-sm text-vine">Добавить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+    <footer class="footer" id="contacts">
+  <div class="footer-inner">
+
+    <div class="footer-left">
+      <h3>Бархат & Карамель</h3>
+      <p>+7 495 123-45-67</p>
+      <p>info@barhat-caramel.ru</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><img src="../../assets/images/instagram-icon.webp" alt=""></a>
+      <a href="#"><img src="../../assets/images/facebook-ico.webp" alt=""></a>
+      <a href="#"><img src="../../assets/images/telegram-icon.webp" alt=""></a>
+      <a href="#"><img src="../../assets/images/tiktok-icon.webp" alt=""></a>
+    </div>
+
+  </div>
+</footer>
+ 
+
+</body>
+
+</html>
